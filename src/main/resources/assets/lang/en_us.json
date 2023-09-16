@@ -1,0 +1,8 @@
+{
+  "item.material_wands.blackstone_wand": "Blackstone convertor wand",
+  "item.material_wands.deepslate_wand":  "Deepslate convertor wand",
+  "item.material_wands.sand_wand":       "Sand convertor wand",
+  "item.material_wands.copper_wand":     "Copper convertor wand",
+
+  "item.material_wands.bone_wand": "Bone generator wand"
+}
