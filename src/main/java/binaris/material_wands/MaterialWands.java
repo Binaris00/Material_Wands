@@ -1,5 +1,6 @@
 package binaris.material_wands;
 
+import binaris.material_wands.config.ModConfig;
 import binaris.material_wands.registry.MaterialWands_Items;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +13,8 @@ public class MaterialWands implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfig.registerConfig();
+
 		MaterialWands_Items.registerAllItems();
 		LOGGER.info("This is a welcome message :O!");
 	}
